@@ -1,0 +1,271 @@
+@import url(https://db.onlinewebfonts.com/c/060e116a70e3096c52db16f61aaab194?family=Sofia+Pro+Regular);
+
+@font-face {
+    font-family: "Sofia Pro Regular";
+    src: url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.eot");
+    src: url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.svg#Sofia Pro Regular")format("svg");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    background: #ffffff;
+    display: flex;
+    box-shadow: 1px 1px 5px -2px #000000;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-logo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "cooper";
+    color: #000000;
+    font-size: 20px;
+}
+
+.navbar-item{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sofia Pro Regular";
+    font-weight: 200;
+}
+
+.navbar-item a:hover{
+    font-weight: 800;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list-item ul li{
+    display: inline;
+    margin: 35px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.btn-port a{
+    border: 2.5px solid #000000;
+    padding: 10px 35px; 
+    border-radius: 30px;
+    color: #000000;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-port a:hover {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.371);
+}
+
+.hero{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-name{
+    font-family: 'Francois One';
+    text-align: center;
+}
+
+.text-small{
+    margin-bottom: -40px;
+    font-size: 40px;
+}
+
+.title-name{
+    letter-spacing: -8px;
+    font-size: 130px;
+    transition: letter-spacing 0.5s ease, text-shadow 0.5s ease;
+}
+
+.title-name:hover{
+    letter-spacing: 10px;
+    text-shadow: #00000069 0px 0px 100px;
+}
+
+.subtitle-name{
+    letter-spacing: -8px ;
+    font-size: 100px;
+    margin-top: -50px;
+    transition: letter-spacing 0.5s ease, text-shadow 0.5s ease;
+}
+
+.subtitle-name:hover{
+    letter-spacing: 10px;
+    text-shadow: #00000069 0px 0px 100px;
+}
+
+.text-soft{
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.line{
+    scale: 0.5;
+    position: absolute;
+    left: 95%;
+}
+
+.circle{
+    scale: 0.5;
+    position: absolute;
+    right: 50%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.about{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgport{
+    scale: 1.2;
+    border-radius: 500px;
+    border:  5px solid#000000;
+    transition: scale 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+   
+}
+
+.imgport:hover{
+    scale: 1.3;
+    box-shadow: 1px 1px 25px;
+    border: none;
+}
+
+.name-text{
+    letter-spacing: -2px;
+    font-weight: 500;
+    font-size: 65px;
+    font-family:'Epilogue' ;
+    margin-top: 80px;
+}
+
+.name-text b {
+    font-weight: 800;
+    transition: letter-spacing 0.5s ease;
+}
+
+.name-text  b:hover{
+    letter-spacing: 10px;
+}
+
+.text-about{
+    width: 35vw;
+    font-family: 'Sofia Pro Regular';
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+.sosmed{
+    height: 6vh;
+    width: 25vw;
+    border: 3px solid #000000;
+    margin-top: 3% ;
+    border-radius:100px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.sosmed-item{
+    margin: 25px;
+    font-size: 35px;
+}
+
+.circle2{
+    position: absolute;
+    scale: 0.5;
+    left: 50%;
+    
+}
+
+.line-color{
+    width: 100vw;
+    height: 10vh;
+    background: linear-gradient(to bottom, #ffffff 0%, #000000 100%);
+}
+
+.hero3{
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    justify-content: center;
+    display: flex;
+}
+
+.title-hero3{
+    height: max-content;
+    font-size: 110px;
+    color: #ffffff;
+    font-family: 'Epilogue';
+    font-weight: 500;
+    padding-top: 4%;
+    letter-spacing: -10px;
+    transition: letter-spacing 0.4s ease;
+}
+
+.title-hero3:hover {
+    letter-spacing: 5px ;
+}
+ 
+.dropdown{
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    padding: 10px;
+}
+
+.toggle{
+    display: none;
+}
+
+.toggle:hover .dropdown{
+    display: block;
+}
+
+@media screen and (max-width:768px){
+    .navbar-item{
+        display: none;
+    }
+    .toggle{
+        display: block;
+    }
+}
